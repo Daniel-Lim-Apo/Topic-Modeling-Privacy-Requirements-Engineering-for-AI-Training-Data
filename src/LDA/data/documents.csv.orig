@@ -1,0 +1,201 @@
+id,text
+1,The system must obtain explicit informed consent from users before collecting any personal data related to AI training.
+2,Users must be able to withdraw their consent at any time and have their data removed from the training dataset.
+3,Consent records must be stored securely and made available for audit purposes.
+4,The data collection forms must clearly explain the purpose of collecting personal information for AI model training.
+5,Users should be notified when their data is being used for training purposes and must acknowledge this use.
+6,Consent must be granular allowing users to opt in or out of specific data uses within the AI pipeline.
+7,A data processing agreement must be established before any personal data is transferred to third-party AI trainers.
+8,Minors below the age of sixteen must have parental consent before their data can be used in any AI training corpus.
+9,Consent must be renewed periodically especially when the purpose of data processing changes.
+10,The platform must provide plain-language summaries of consent forms to ensure comprehension by non-technical users.
+11,Personal data must be anonymized before being included in any AI training dataset to protect individual privacy.
+12,The anonymization technique applied must comply with current standards such as k-anonymity or differential privacy.
+13,Re-identification of anonymized records must be technically prevented through cryptographic safeguards.
+14,The system must apply pseudonymization to sensitive fields including names addresses and identification numbers.
+15,Anonymized datasets must be validated by a privacy officer before use in model training workflows.
+16,Any third party receiving anonymized data must sign a non-re-identification agreement.
+17,The data anonymization pipeline must be auditable and reproducible for compliance verification.
+18,Differential privacy mechanisms must be applied when aggregating statistics from personal data for AI training.
+19,All anonymization and pseudonymization processes must be logged with timestamps and operator identifiers.
+20,Anonymization quality metrics must be computed and documented before releasing training data to ML teams.
+21,Only the minimum amount of personal data necessary for the AI training objective must be collected.
+22,Data minimization policies must be enforced at the point of data collection through technical controls.
+23,The data pipeline must automatically discard fields that are not required for model training.
+24,Periodic data audits must be conducted to identify and delete data that exceeds the minimum necessary threshold.
+25,Feature selection in the AI model must consider privacy implications and avoid including sensitive attributes.
+26,The system must enforce retention limits ensuring that personal training data is deleted after the defined retention period.
+27,Data minimization requirements must be documented in the data management plan for each AI project.
+28,Automated data profiling tools must flag datasets that contain more personal information than required.
+29,API endpoints that expose training data must enforce field-level access control to minimize data exposure.
+30,The volume of personal data processed must be proportional to the explainability and accuracy requirements of the AI model.
+31,The AI system must implement role-based access control to restrict who can access personal training data.
+32,Access to raw personal data must be limited to authorized personnel with a documented business need.
+33,Audit logs must record all access to personal data including user identity timestamp and action performed.
+34,The system must enforce encryption of personal data both at rest and in transit using industry-standard algorithms.
+35,Vulnerability assessments must be conducted regularly on all systems that store or process personal training data.
+36,Personal data must be stored in secure environments with physical and logical access controls.
+37,Incident response procedures must be in place to handle data breaches involving personal training data.
+38,Security controls must be tested before any new AI training pipeline is deployed to production.
+39,Data loss prevention tools must monitor attempts to exfiltrate personal data from training environments.
+40,Multi-factor authentication must be required for all accounts that have access to personal training datasets.
+41,Users must be informed about how their data is collected processed and used to train AI models.
+42,The privacy policy must be written in clear and accessible language describing all data processing activities.
+43,Data subjects must receive a notice explaining the categories of personal data collected for AI training.
+44,The system must provide an easily accessible interface for users to view the data collected about them.
+45,Transparency reports must be published annually detailing the types of personal data used in AI training.
+46,Stakeholders must be notified promptly in the event of a data breach affecting personal training data.
+47,The AI model card must disclose the types of data used during training and known limitations regarding privacy.
+48,The organization must maintain and publish a record of all data processing activities involving personal data.
+49,Users must be clearly informed if their data will be shared with third parties for AI training purposes.
+50,Explanations of automated decisions made by AI systems must be available to users upon request.
+51,A Data Protection Officer must oversee all activities involving personal data used for AI training.
+52,The organization must implement a privacy governance framework that includes policies procedures and accountability measures.
+53,Data controllers must be clearly identified for each AI training dataset and their responsibilities documented.
+54,An impact assessment must be conducted before processing personal data for high-risk AI applications.
+55,Privacy by design principles must be incorporated into the development lifecycle of all AI training pipelines.
+56,Employees who handle personal data for AI training must receive regular privacy and security training.
+57,Third-party vendors processing personal data must be assessed for compliance with privacy requirements before engagement.
+58,The organization must designate data stewards responsible for ensuring data quality and privacy in AI datasets.
+59,Accountability measures must include sanctions for non-compliance with privacy requirements by staff and contractors.
+60,A privacy program must be established with clear roles responsibilities and metrics for continuous improvement.
+61,Individuals must have the right to access personal data held about them and used in AI training.
+62,Data subjects must be able to request correction of inaccurate personal data used in AI model training.
+63,The right to erasure must be supported allowing individuals to request deletion of their personal training data.
+64,Users must be able to object to the processing of their personal data for AI training purposes.
+65,A process must be established to handle data subject access requests within the legally required timeframe.
+66,The system must provide a mechanism for data portability enabling users to export their personal data.
+67,When a data subject requests erasure the data must be removed from all training datasets and derived models.
+68,Requests for data correction must trigger a retraining or re-evaluation of any AI model affected by the incorrect data.
+69,Users must be informed of their data rights in a clear and prominent manner at the point of data collection.
+70,The identity of data subjects making rights requests must be verified securely before processing the request.
+71,Data retention schedules must be defined and enforced for all personal data used in AI training pipelines.
+72,Personal data must be deleted or anonymized at the end of its defined retention period.
+73,Retention periods must be proportionate to the purpose of the AI training data and documented in a retention policy.
+74,Automated deletion mechanisms must be implemented to enforce data retention schedules without manual intervention.
+75,Records of data deletion must be maintained to demonstrate compliance with retention requirements.
+76,Backup copies of personal training data must be subject to the same retention and deletion policies as primary copies.
+77,The system must generate alerts when personal data is approaching its retention expiry date.
+78,Retention policies must be reviewed annually and updated to reflect changes in legal requirements.
+79,Data that has been anonymized may be retained beyond the standard personal data retention period.
+80,Legal holds must temporarily suspend automatic deletion of personal data when required by law or litigation.
+81,Cross-border transfers of personal data for AI training must comply with applicable data protection regulations.
+82,Adequate safeguards such as standard contractual clauses must be in place before transferring data internationally.
+83,The destination country for data transfer must provide an adequate level of data protection recognized by authorities.
+84,Data transfer impact assessments must be conducted when transferring personal data to countries outside protected regions.
+85,Records of all international data transfers must be maintained and available upon regulatory request.
+86,The amount of data transferred internationally must be minimized to the extent necessary for AI training.
+87,Personal data transferred for AI training must not be used for purposes beyond those specified in the data transfer agreement.
+88,Cloud-based AI training environments must be assessed for compliance with data residency and sovereignty requirements.
+89,Data subjects must be informed if their personal data is transferred internationally for AI training purposes.
+90,Encryption standards must be applied to personal data during international transfers to prevent unauthorized access.
+91,A Data Protection Impact Assessment must be conducted for any AI training activity that poses high risks to privacy.
+92,The DPIA must identify privacy risks assess their likelihood and severity and propose mitigation measures.
+93,Results of the DPIA must be reviewed by the Data Protection Officer before the project proceeds.
+94,DPIAs must be updated whenever there is a significant change in the nature scope or purpose of AI training.
+95,The organization must consult with the data protection authority when a DPIA indicates unacceptably high residual risk.
+96,Stakeholders including data subjects must be consulted during the DPIA process where feasible.
+97,The DPIA must evaluate the necessity and proportionality of processing personal data for the specific AI training objective.
+98,Risk mitigation measures identified in the DPIA must be implemented before any personal data processing begins.
+99,DPIA outcomes must be documented and retained as evidence of compliance with privacy requirements.
+100,Privacy risk registers must be maintained and updated following each DPIA to track ongoing privacy risks.
+101,The AI system must be designed with privacy as a core requirement from the earliest stages of development.
+102,Privacy-enhancing technologies must be evaluated and adopted where appropriate in AI training workflows.
+103,The system architecture must minimize the flow of personal data through components not essential to AI training.
+104,Default settings in AI training systems must be the most privacy-friendly options available.
+105,Privacy by design reviews must be conducted at each phase of the AI development lifecycle.
+106,Technical documentation must describe how privacy by design principles are implemented in the AI training pipeline.
+107,Automated privacy testing must be integrated into the continuous integration pipeline for AI model development.
+108,Privacy patterns such as data minimization and aggregation must be applied in the design of AI data flows.
+109,The system must provide privacy controls that are accessible and usable without technical expertise.
+110,Privacy impact of third-party components integrated in the AI training pipeline must be assessed before adoption.
+111,The organization must establish a procedure to detect investigate and respond to personal data breaches promptly.
+112,Data breaches involving personal training data must be reported to the relevant supervisory authority within seventy-two hours.
+113,Data subjects must be notified of breaches that are likely to result in high risk to their rights and freedoms.
+114,Breach notification must include information about the nature of the breach data affected and remediation measures.
+115,Post-incident reviews must be conducted to identify root causes and prevent recurrence of data breaches.
+116,The system must automate the detection of anomalous access patterns that may indicate a data breach.
+117,Contact information for the Data Protection Officer must be included in all breach notifications.
+118,All data breaches must be documented regardless of whether notification to authorities or data subjects is required.
+119,Crisis communication plans must be prepared in advance to manage reputational impact of personal data breaches.
+120,Penetration testing must be conducted regularly to identify vulnerabilities before they can be exploited in a breach.
+121,Federated learning approaches must be considered to enable AI model training without centralizing personal data.
+122,Synthetic data generation must be explored as an alternative to using real personal data for AI training.
+123,Homomorphic encryption techniques should be evaluated for processing encrypted personal data during AI training.
+124,The use of secure multi-party computation must be considered when collaborating on AI training across organizations.
+125,Privacy-preserving model aggregation techniques must be applied in distributed AI training environments.
+126,The trade-off between model utility and privacy protection must be explicitly analyzed and documented.
+127,Membership inference attack resistance must be evaluated and improved in AI models trained on personal data.
+128,Model inversion attack mitigation strategies must be implemented to prevent reconstruction of training data.
+129,The AI training pipeline must support privacy metrics that can be measured monitored and reported.
+130,Privacy-preserving feature extraction techniques must be applied to reduce the sensitivity of input data.
+131,Fairness and non-discrimination requirements must be considered alongside privacy when selecting AI training data.
+132,The training dataset must be examined for biases that could result in discriminatory outcomes for protected groups.
+133,Personal data used for AI training must not encode sensitive attributes such as race religion or political opinion.
+134,Bias mitigation techniques must be applied during data preprocessing to reduce discriminatory patterns in training data.
+135,The fairness properties of AI models trained on personal data must be evaluated and documented before deployment.
+136,Diverse and representative training datasets must be curated to improve AI model performance across demographic groups.
+137,Automated bias detection tools must be integrated into the AI training pipeline to flag potential discrimination risks.
+138,Data subjects from underrepresented groups must be given the option to contribute data that improves AI fairness.
+139,Fairness audits must be conducted periodically on AI models to assess changes in bias over time.
+140,The impact of data filtering and curation decisions on fairness must be documented and reviewed by ethics boards.
+141,All personal data used in AI training must be sourced from lawful and ethically sound data collection processes.
+142,Data provenance metadata must be captured and maintained for all datasets used in AI model training.
+143,The licensing terms of third-party datasets must be reviewed to ensure they permit use for AI training.
+144,Personal data obtained without proper consent must be identified and removed from AI training datasets.
+145,Data quality assessments must be conducted to ensure that training data is accurate complete and up to date.
+146,Metadata records must include information about data origin collection method and any preprocessing applied.
+147,Data lineage tracking must enable tracing of each data point from its source to its use in AI model training.
+148,Organizations must conduct ethical reviews of data sourcing practices for sensitive AI training use cases.
+149,Terms of service of data sources must be checked to confirm permission for use in AI training scenarios.
+150,Data curation logs must document all transformations applied to personal data during preparation for AI training.
+151,AI training systems that process personal data must be registered with the relevant supervisory authority if required.
+152,The organization must demonstrate compliance with data protection regulations through documentation and audits.
+153,Regular compliance assessments must be conducted to identify gaps and implement corrective actions.
+154,External audits of AI training data practices must be facilitated to provide independent assurance of compliance.
+155,Regulatory changes affecting AI and data protection must be monitored and incorporated into policies promptly.
+156,Non-compliance with privacy requirements for AI training data must result in escalation to senior management.
+157,The organization must maintain a register of all AI systems that process personal data with associated risk ratings.
+158,Compliance reports must be generated and reviewed quarterly by the privacy governance committee.
+159,Whistleblower mechanisms must be available for reporting privacy violations related to AI training data handling.
+160,Cooperation with supervisory authorities during inspections of AI training data practices must be ensured.
+161,Data subjects must have mechanisms to lodge complaints about the use of their data in AI training processes.
+162,Complaints related to personal data processing for AI training must be acknowledged within a defined timeframe.
+163,Investigation procedures must be established to assess and resolve privacy complaints efficiently and fairly.
+164,Complaint outcomes must be communicated to the data subject and documented for accountability purposes.
+165,Recurring complaint themes must be analyzed to identify systemic privacy issues in AI training workflows.
+166,The complaints process must be accessible to individuals with disabilities and non-native language speakers.
+167,Data subjects must be informed of their right to complain to supervisory authorities if their concerns are unresolved.
+168,Lessons learned from complaint investigations must be used to improve privacy practices in AI training.
+169,Complaint statistics must be included in transparency reports published by the organization.
+170,A dedicated privacy helpdesk must be available to support data subjects in exercising their rights.
+171,Personal data used to train AI models must be protected against unauthorized access through encryption and access controls.
+172,The integrity of training data must be maintained through checksums and version control mechanisms.
+173,Training datasets must be quarantined and reviewed when data integrity violations are detected.
+174,Read-only access to personal training data must be enforced for AI model training processes to prevent modification.
+175,Data corruption or tampering with personal training data must trigger immediate incident response procedures.
+176,Secure deletion standards must be applied when removing personal data from AI training environments.
+177,Backup encryption keys must be managed under strict access controls and rotated on a scheduled basis.
+178,Personal training data must not be stored in temporary files or logs accessible beyond the training session.
+179,Environmental controls in data centers hosting personal training data must meet industry security certifications.
+180,Hardware security modules must be used to protect cryptographic keys used to encrypt personal training data.
+181,Users must be able to access AI systems without providing unnecessary personal information for training purposes.
+182,The system must offer privacy-preserving authentication options that do not expose personal data unnecessarily.
+183,Interaction logs used for AI training must exclude personally identifiable information by default.
+184,An opt-out mechanism must allow users to prevent their interaction data from being used in AI model training.
+185,User interface designs must include clear privacy controls that are easy to discover and use.
+186,Default privacy settings in AI-powered applications must be set to the highest level of protection available.
+187,Onboarding flows must include a privacy consent step before users interact with AI features that process personal data.
+188,The AI system must not infer sensitive personal attributes from user behavior without explicit consent.
+189,Personalization features that rely on personal data must include controls for users to adjust data usage preferences.
+190,Accessibility considerations must be applied to privacy controls so that all users can exercise their data rights.
+191,The legal basis for processing personal data for AI training must be identified and documented before processing begins.
+192,Legitimate interests assessments must be conducted when relying on legitimate interests as the lawful basis for processing.
+193,Processing of special category data for AI training must be based on explicit consent or another qualifying exception.
+194,Records of processing activities must identify the legal basis applied to each category of personal training data.
+195,Changes in the legal basis for processing must be communicated to data subjects and documented promptly.
+196,Processing personal data beyond the specified legal basis must be prohibited and technically prevented where possible.
+197,The legal basis relied upon for AI training data processing must withstand scrutiny by supervisory authorities.
+198,Special category data must only be included in AI training datasets when there is a clear and compelling justification.
+199,The organization must obtain legal advice when uncertain about the appropriate legal basis for a novel AI training use case.
+200,Documentation of legal bases must be kept current and reviewed when data protection laws or guidance are updated.

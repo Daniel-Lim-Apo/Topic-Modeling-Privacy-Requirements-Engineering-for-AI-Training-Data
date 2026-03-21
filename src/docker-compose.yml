@@ -1,0 +1,53 @@
+services:
+  ollama:
+    build:
+      context: ./ollama
+      dockerfile: Dockerfile
+    container_name: ollama_local
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - lda-net
+
+  lda:
+    build:
+      context: ./LDA
+      dockerfile: Dockerfile
+    container_name: lda_topic_modeling
+    environment:
+      # ── Tune these to experiment ──────────────────────────────────────────
+      - NUM_TOPICS=30 # number of LDA topics
+      - DATA_PATH=/app/data/documents.csv
+      - OUTPUT_DIR=/app/output
+    volumes:
+      # Host ./LDA/output  ←→  container /app/output
+      # All generated PNGs and the HTML report appear here after the run.
+      - ./LDA/output:/app/output
+    networks:
+      - lda-net
+
+  ai-labeler:
+    build:
+      context: ./AI-Topic-Privacy-Risk-Tier-Labeler
+      dockerfile: Dockerfile
+    container_name: ai_topic_privacy_risk_tier_labeler
+    volumes:
+      # Mount the LDA output directory
+      - ./LDA/output:/app/output
+    environment:
+      # Connect directly to the Ollama container within the shared network
+      - OLLAMA_URL=http://ollama_local:11434/api/generate
+      - OLLAMA_MODEL=llama3.1
+    networks:
+      - lda-net
+
+volumes:
+  ollama_data:
+    name: ollama_data
+
+networks:
+  lda-net:
+    name: LDA-Net

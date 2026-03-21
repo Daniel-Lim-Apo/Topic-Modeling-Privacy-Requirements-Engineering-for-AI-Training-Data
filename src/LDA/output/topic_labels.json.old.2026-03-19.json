@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "tool": "Topic Labeler",
+    "saved_at": "2026-03-17T17:36:34.030Z",
+    "num_topics": 20
+  },
+  "topics": [
+    {
+      "topic_number": 1,
+      "name": "1111111",
+      "description": "121212",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": [
+        "consent",
+        "right",
+        "controller",
+        "subject",
+        "purpose",
+        "transfer",
+        "authority",
+        "supervisory"
+      ]
+    },
+    {
+      "topic_number": 2,
+      "name": "222222222",
+      "description": "2323232",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": [
+        "security",
+        "breach",
+        "risk",
+        "measure",
+        "protection",
+        "technical",
+        "organizational",
+        "impact"
+      ]
+    },
+    {
+      "topic_number": 3,
+      "name": "333333",
+      "description": "34343",
+      "privacy_risk_tier": 4,
+      "privacy_risk_label": "High",
+      "top_keywords": [
+        "collect",
+        "notice",
+        "policy",
+        "inform",
+        "transparency",
+        "fair",
+        "disclosure",
+        "lawful"
+      ]
+    },
+    {
+      "topic_number": 4,
+      "name": "4444",
+      "description": "4545454",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": [
+        "access",
+        "rectification",
+        "erasure",
+        "portability",
+        "objection",
+        "restriction",
+        "automated",
+        "profiling"
+      ]
+    },
+    {
+      "topic_number": 5,
+      "name": "55555555",
+      "description": "56565",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": [
+        "retention",
+        "storage",
+        "deletion",
+        "period",
+        "minimisation",
+        "accuracy",
+        "anonymisation",
+        "pseudonymisation"
+      ]
+    }
+  ]
+}

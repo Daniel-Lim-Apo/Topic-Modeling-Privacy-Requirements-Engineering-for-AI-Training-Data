@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "tool": "Topic Labeler",
+    "saved_at": "2026-03-17T18:53:27.182Z",
+    "num_topics": 20
+  },
+  "topics": [
+    {
+      "topic_number": 1,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": [
+        "consent",
+        "right",
+        "controller",
+        "subject",
+        "purpose",
+        "transfer",
+        "authority",
+        "supervisory"
+      ]
+    },
+    {
+      "topic_number": 2,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 3,
+      "privacy_risk_label": "Moderate",
+      "top_keywords": [
+        "security",
+        "breach",
+        "risk",
+        "measure",
+        "protection",
+        "technical",
+        "organizational",
+        "impact"
+      ]
+    },
+    {
+      "topic_number": 3,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": [
+        "collect",
+        "notice",
+        "policy",
+        "inform",
+        "transparency",
+        "fair",
+        "disclosure",
+        "lawful"
+      ]
+    },
+    {
+      "topic_number": 4,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": [
+        "access",
+        "rectification",
+        "erasure",
+        "portability",
+        "objection",
+        "restriction",
+        "automated",
+        "profiling"
+      ]
+    },
+    {
+      "topic_number": 5,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 4,
+      "privacy_risk_label": "High",
+      "top_keywords": [
+        "retention",
+        "storage",
+        "deletion",
+        "period",
+        "minimisation",
+        "accuracy",
+        "anonymisation",
+        "pseudonymisation"
+      ]
+    },
+    {
+      "topic_number": 6,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 7,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 3,
+      "privacy_risk_label": "Moderate",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 8,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 9,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 10,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 4,
+      "privacy_risk_label": "High",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 11,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 4,
+      "privacy_risk_label": "High",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 12,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 1,
+      "privacy_risk_label": "Minimal",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 13,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 0,
+      "privacy_risk_label": "—",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 14,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 3,
+      "privacy_risk_label": "Moderate",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 15,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 0,
+      "privacy_risk_label": "—",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 16,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 3,
+      "privacy_risk_label": "Moderate",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 17,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 18,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 0,
+      "privacy_risk_label": "—",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 19,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 2,
+      "privacy_risk_label": "Low",
+      "top_keywords": []
+    },
+    {
+      "topic_number": 20,
+      "name": "",
+      "description": "",
+      "privacy_risk_tier": 3,
+      "privacy_risk_label": "Moderate",
+      "top_keywords": []
+    }
+  ]
+}

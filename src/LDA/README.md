@@ -1,6 +1,11 @@
 # LDA Topic Modeling — Privacy Requirements for AI Training Data
 
-> Applies **Latent Dirichlet Allocation (LDA)** to a corpus of privacy-requirements sentences and generates several publication-quality graphics.
+This component operationalizes the **Preprocess** and **Train** phases of the Privacy-Aware Requirements Engineering methodology. 
+
+## Overview
+This module applies **Latent Dirichlet Allocation (LDA)** to a corpus of raw textual data to extract latent semantic structures. By representing documents as mixtures of topics and topics as distributions of words, it sets the foundation for downstream privacy assessment.
+
+The pipeline performs text preprocessing and utilizes the `gensim` framework to generate the topic models. It outputs the document-topic distribution weights and top topic keywords required by the `AI-Topic-Privacy-Risk-Tier-Labeler`, alongside several publication-quality graphics for manual review.
 
 ---
 
@@ -12,7 +17,7 @@ src/LDA/
 │   └── documents.csv   # 200-sentence privacy-requirements corpus
 ├── src/
 │   └── lda_analysis.py            # end-to-end LDA pipeline
-├── output/                        # ← graphics appear here after running
+├── output/                        # ← generated artifacts and models appear here
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
@@ -22,6 +27,7 @@ src/LDA/
 ---
 
 ## Quick Start
+*Note: It is recommended to run this as part of the main `docker-compose.yml` at the project root.*
 
 ```bash
 # 1 — build the Docker image
@@ -30,17 +36,17 @@ docker compose build
 # 2 — run the analysis (outputs saved to ./output/)
 docker compose up
 
-# 3 — view results
-open output/topic_word_barplot.png
+# 3 — view interactive results
 open output/lda_visualization.html   # interactive pyLDAvis in browser
 ```
 
 ---
 
-## Output Graphics
+## Output Artifacts
 
 | File | Description |
 |------|-------------|
+| `doc_topic_probs.js` | Topic distribution matrix consumed by the Labeler Component |
 | `topic_word_barplot.png` | Top-10 words per topic (bar charts) |
 | `topic_wordcloud_N.png` | Word cloud for each topic N |
 | `document_topic_distribution.png` | Heatmap: documents × topic weights |
@@ -58,13 +64,7 @@ Override defaults with environment variables in `docker-compose.yml`:
 |----------|---------|-------------|
 | `NUM_TOPICS` | `20` | Number of LDA topics |
 | `DATA_PATH` | `/app/data/documents.csv` | Input CSV |
-| `OUTPUT_DIR` | `/app/output` | Where graphics are written |
-
-Example — change to 7 topics:
-```yaml
-environment:
-  - NUM_TOPICS=7
-```
+| `OUTPUT_DIR` | `/app/output` | Where graphics and data are written |
 
 ---
 
